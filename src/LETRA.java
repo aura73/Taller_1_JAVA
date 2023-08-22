@@ -7,6 +7,8 @@ public class LETRA {
         System.out.print("Ingrese un simbolo: ");
         char simbolo = SC.next().charAt(0);
 
+        int ascii = (int)simbolo;
+
         if (Character.isLetter(simbolo)) {
             System.out.println("Es una letra.");
             if (Character.isUpperCase(simbolo)) {
